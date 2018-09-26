@@ -1,0 +1,48 @@
+@font-face{
+	font-family: 'HOMINIS-webfont';
+	src: url('HOMINIS-webfont.eot');
+	src: url('HOMINIS-webfont.eot?iefix') format('eot'),
+	     url('HOMINIS-webfont.woff') format('woff'),
+	     url('HOMINIS-webfont.ttf') format('truetype'),
+	     url('HOMINIS-webfont.svg#HOMINIS-webfont') format('svg');
+			 font-family: 'WEST____';
+		 	src: url('HOMINIS-webfont.ttf') format('truetype');
+}
+h1
+{font-size: 3em; font-family: 'HOMINIS-webfont', Impact;}
+
+h2
+{font-size: 1.4em; font-family: 'HOMINIS-webfont',Impact, sans-serif;}
+
+p
+{text-align: center;box-sizing: inherit;font-size: 1em;color: #FFDF9D;
+	border: 2px #1551B2 outset;border-radius: 5px;background-color: #1551B2;}
+
+ul
+{color: #B27800 ; text-decoration: underline;}
+
+.intro
+{color:maroon;}
+
+.salut
+{color:red}
+
+.imageflottante
+{float: left;}
+
+body
+{ background: url("contenu/1536176482411.png") scroll no-repeat top ;
+    background-color: #1551B2;color: white; /* Le texte de la page sera blanc */}
+
+mark
+{ color:#FFDF9D; background-color:#1551B2; }
+
+a:hover /* Apparence au survol des liens */
+{
+   text-decoration: underline;
+   color: green;
+}
+a:active
+{font-family: 'WEST____';}
+a:visited
+{color: red;}
